@@ -1,0 +1,27 @@
+.header li{
+   list-style-type: none;
+   font-size: 18px;
+   margin: 0 10px;
+  user-select: none;
+}
+
+
+.header li:hover{
+    cursor: pointer;
+    color: #ddd;
+}
+
+.container img{
+    width: 100%;
+    max-height: 430px;
+    display: block;
+}
+
+.container p{
+    user-select: none;
+}
+
+.container p:hover{
+    cursor: pointer;
+    color: #4b4d52 !important;
+}
